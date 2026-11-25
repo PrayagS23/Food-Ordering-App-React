@@ -42,3 +42,11 @@ const root = createRoot(document.getElementById("root"));
 root.render(<AppLayout />); -->
 
 6.
+
+
+There are 2 types of import and export
+1. Default
+2. Named
+
+
+ReactHooks->

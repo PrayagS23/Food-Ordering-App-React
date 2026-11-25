@@ -1,4 +1,4 @@
-const restaurants=[
+const restaurantsList=[
   {
     "id": "rest-001",
     "name": "Spice Garden",
@@ -33,7 +33,7 @@ const restaurants=[
     "id": "rest-004",
     "name": "Burger Barn",
     "cuisines": ["Burgers", "Fast Food"],
-    "rating": 4.3,
+    "rating": 3.3,
     "deliveryTime": "20-30 mins",
     "priceForTwo": 350,
     "area": "Jayanagar",
@@ -43,10 +43,22 @@ const restaurants=[
     "id": "rest-005",
     "name": "Green Bowl",
     "cuisines": ["Healthy Food", "Salads"],
-    "rating": 4.5,
+    "rating": 3.9,
     "deliveryTime": "25-35 mins",
     "priceForTwo": 450,
     "area": "Whitefield",
     "image": "https://dummyimage.com/600x400/eee/333.png&text=Green+Bowl"
+  },
+  {
+    "id": "rest-007",
+    "name": "Green Bowarchi",
+    "cuisines": ["Healthy Food", "Salads"],
+    "rating": 2.9,
+    "deliveryTime": "25-35 mins",
+    "priceForTwo": 230,
+    "area": "Whitefield",
+    "image": "https://dummyimage.com/600x400/eee/333.png&text=Green+Bowarchi"
   }
-]
+];
+
+export default restaurantsList;
